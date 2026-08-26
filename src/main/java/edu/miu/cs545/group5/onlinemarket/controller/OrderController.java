@@ -59,6 +59,7 @@ public class OrderController {
         modelAndView.addObject("activeProductList", true);
         modelAndView.addObject("orderList", orderPOJOList);
         modelAndView.addObject("imgUtil", new ImageUtil());
+        // I added this comment
         return modelAndView;
     }
 
